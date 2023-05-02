@@ -13,7 +13,7 @@ module.exports = {
     networks: {
         zkSyncTestnet: {
             url: "https://testnet.era.zksync.dev",
-            ethNetwork: "https://goerli.infura.io/v3/2fb28504bc054b31ba2aa60e3b11f750", // RPC URL of the network (e.g. `https://goerli.infura.io/v3/<API_KEY>`)
+            ethNetwork: "", // RPC URL of the network (e.g. `https://goerli.infura.io/v3/<API_KEY>`)
             zksync: true,
             // Verification endpoint for Goerli
             verifyURL: 'https://zksync2-testnet-explorer.zksync.dev/contract_verification',
